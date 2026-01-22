@@ -1,6 +1,6 @@
 # 💼 DevHire · Conectando Talento Tech con Oportunidades 🚀
 
-[![DevHire](./images/image-preview.png)](https://devhire.vercel.app/)
+[![DevHire](./public/images/image-preview.png)](https://dev-hire-three.vercel.app/)
 
 Bienvenido a **DevHire**, la plataforma líder en Latinoamérica que conecta desarrolladores talentosos con empresas innovadoras. Creemos que **cada línea de código merece el proyecto perfecto, cada stack tiene su oportunidad ideal y cada desarrollador merece crecer profesionalmente**.
 
@@ -152,7 +152,7 @@ npm run lint         # Ejecuta el linter de código
 
 Este proyecto está optimizado para deployment en Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/carlossilvadev10/dev-hire.git)
+[![Deploy with Vercel](https://vercel.com/button)](https://dev-hire-three.vercel.app/)
 
 1. Haz fork del repositorio
 2. Conecta tu repositorio con Vercel
@@ -163,16 +163,16 @@ Este proyecto está optimizado para deployment en Vercel:
 ## 📸 Capturas de Pantalla
 
 ### Hero Section
-![Hero](./images/hero.png)
+![Hero](./public/images/hero2.png)
 
 ### Categorías de Empleos
-![Categorias](./images/categories.png)
+![Categorias](./public/images/categories.png)
 
 ### Empleos Destacados
-![Jobs](./images/jobs.png)
+![Jobs](./public/images/jobs.png)
 
 ### Planes de Precios
-![Pricing](./images/pricing.png)
+![Pricing](./public/images/pricing.png)
 
 ---
 
