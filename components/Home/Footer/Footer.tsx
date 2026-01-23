@@ -49,8 +49,8 @@ const Footer = () => {
             <motion.div variants = {fadeInUp} initial = "hidden" whileInView = "show" viewport = {{ once: true, margin: "-50px" }} className = "pt-6 mt-10 border-t border-gray-300 dark:border-gray-700 w-[90%] mx-auto">
                 <p className = "text-gray-500 text-center">
                     © {new Date().getFullYear()} DevHire. Todos los derechos reservados. Desarrollado por {" "}
-                    <a href = "https://github.com/carlozzsilva10" target = "_blank" rel = "noopener noreferrer" className = "font-semibold hover:underline">
-                        carlozzsilva10
+                    <a href = "https://github.com/carlossilvadev10" target = "_blank" rel = "noopener noreferrer" className = "font-semibold hover:underline">
+                        carlossilvadev10
                     </a>
                 </p>
             </motion.div>
