@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className = "py-16 bg-gray-200 dark:bg-gray-800">
             <motion.div variants = {staggerContainer(0.1)} initial = "hidden" whileInView = "show" viewport = {{ once: true }} className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 items-start w-[85%] mx-auto">
                 <motion.div variants = {fadeInUp} className = "xl:col-span-2">
-                    <div className = "flex items-center space-x-2">
+                    <div className = "flex items-center justify-center sm:justify-start space-x-2">
                         <div className = "flex flex-col items-center justify-center w-10 h-10 bg-cyan-800 dark:bg-white rounded-full">
                             <LuNetwork className = "w-5 h-5 text-white dark:text-black" />
                         </div>
@@ -20,27 +20,27 @@ const Footer = () => {
                             DevHire
                         </p>
                     </div>
-                    <p className = "mt-4 text-sm text-gray-600 dark:text-gray-400">
+                    <p className = "mt-4 text-sm text-gray-600 dark:text-gray-400 text-center sm:text-start">
                         La plataforma líder en Latinoamérica para conectar talento tech con las mejores oportunidades laborales, ya sea que busques tu próximo desafío o quieras construir el equipo que tu empresa necesita.
                     </p>
                     <div className = "mt-4">
-                        <h3 className = "text-base lg:text-xl text-gray-700 dark:text-gray-300 font-medium">
+                        <h3 className = "text-base lg:text-xl text-gray-700 dark:text-gray-300 font-medium text-center sm:text-start">
                             Contáctanos
                         </h3>
-                        <p className = "mt-1 text-gray-600 dark:text-gray-400 text-base lg:text-lg font-bold">
+                        <p className = "mt-1 text-gray-600 dark:text-gray-400 text-base lg:text-lg font-bold text-center sm:text-start">
                             +51 987 654 321
                         </p>
                     </div>
-                    <p className = "text-sm text-gray-600 dark:text-gray-400 mt-2">
+                    <p className = "text-sm text-gray-600 dark:text-gray-400 mt-2 text-center sm:text-start">
                         Lima, Perú
                     </p>
-                    <p className = "text-sm text-gray-600 dark:text-gray-400 mt-2">
+                    <p className = "text-sm text-gray-600 dark:text-gray-400 mt-2 text-center sm:text-start">
                         correo@gmail.com
                     </p>
                 </motion.div>
                 {
                     footerLinks.map((section) => (
-                        <motion.div key = {section.id} variants = {fadeInUp}>
+                        <motion.div key = {section.id} variants = {fadeInUp} className = "">
                             <FooterColumn section = {section} />
                         </motion.div>
                     ))
