@@ -14,7 +14,7 @@ const Info = () => {
                 <motion.div variants = {fadeIn("right", 0)} initial = "hidden" whileInView = "show" className = "">
                     <Image src = "/images/a.png" alt = "img-info" width = {1000} height = {1000} />
                 </motion.div>
-                <motion.div variants = {fadeIn("left", 0.2)} initial = "hidden" whileInView = "show" className = "">
+                <motion.div variants = {fadeIn("left", 0.2)} initial = "hidden" whileInView = "show" className = "text-center lg:text-start">
                     <h2 className = "text-3xl md:text-4xl lg:text-5xl font-bold font-heading leading-8 lg:leading-16">
                         Conecta con desarrolladores de talento excepcional
                     </h2>
@@ -24,7 +24,7 @@ const Info = () => {
                     <div className = "mt-6">
                         {
                             features.map((feature, i) => (
-                                <div key = {i} className = "flex items-center space-x-2 mb-4">
+                                <div key = {i} className = "flex items-center justify-center lg:justify-start space-x-2 mb-4">
                                     <BiCheck className = "w-7 h-7 text-pink-600 shrink-0" />
                                     <span className = "text-gray-700 dark:text-gray-300 font-medium">
                                         {feature}

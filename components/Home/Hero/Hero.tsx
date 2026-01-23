@@ -12,7 +12,7 @@ const Hero = () => {
         <section className = "flex flex-col justify-center w-full h-screen relative pt-8">
             <div className = "grid grid-cols-1 xl:grid-cols-2 gap-10 w-[90%] md:w-[85%] mx-auto items-center">
                 {/* text content */}
-                <motion.div variants = {fadeIn("right", 0)} initial = "hidden" animate = "show" className = "">
+                <motion.div variants = {fadeIn("right", 0)} initial = "hidden" animate = "show" className = "text-center xl:text-start">
                     <h1 className = "text-3xl sm:text-6xl font-bold font-heading">
                         Conecta con empresas que buscan tu stack
                     </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
                         <p className = "text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                             Búsquedas populares:
                         </p>
-                        <div className = "flex flex-wrap gap-2">
+                        <div className = "flex flex-wrap justify-center xl:justify-start gap-2">
                             {
                                 popularSearches.map((search, i) => (
                                     <span key = {i} className = "px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm hover:bg-cyan-100 dark:hover:bg-cyan-900 cursor-pointer transition-all duration-300">
