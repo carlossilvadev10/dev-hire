@@ -33,7 +33,7 @@ const Nav = ({ openNav }: NavProps) => {
                         <div className = "flex flex-col items-center justify-center w-10 h-10 bg-cyan-800 dark:bg-white rounded-full">
                             <LuNetwork className = "w-5 h-5 text-white dark:text-black" />
                         </div>
-                        <p className = "hidden sm:block text-xl md:text-2xl font-bold text-gray-800 dark:text-white">
+                        <p className = "hidden sm:block text-xl md:text-2xl font-bold font-logo text-gray-800 dark:text-white">
                             DevHire
                         </p>
                     </div>

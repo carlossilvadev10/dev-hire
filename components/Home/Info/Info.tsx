@@ -15,7 +15,7 @@ const Info = () => {
                     <Image src = "/images/a.png" alt = "img-info" width = {1000} height = {1000} />
                 </motion.div>
                 <motion.div variants = {fadeIn("left", 0.2)} initial = "hidden" whileInView = "show" className = "">
-                    <h2 className = "text-3xl md:text-4xl lg:text-5xl font-bold leading-8 lg:leading-16">
+                    <h2 className = "text-3xl md:text-4xl lg:text-5xl font-bold font-heading leading-8 lg:leading-16">
                         Conecta con desarrolladores de talento excepcional
                     </h2>
                     <p className = "mt-4 text-gray-700 dark:text-gray-300">

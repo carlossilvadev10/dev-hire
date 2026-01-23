@@ -13,7 +13,7 @@ const Hero = () => {
             <div className = "grid grid-cols-1 xl:grid-cols-2 gap-10 w-[90%] md:w-[85%] mx-auto items-center">
                 {/* text content */}
                 <motion.div variants = {fadeIn("right", 0)} initial = "hidden" animate = "show" className = "">
-                    <h1 className = "text-3xl sm:text-6xl font-bold">
+                    <h1 className = "text-3xl sm:text-6xl font-bold font-heading">
                         Conecta con empresas que buscan tu stack
                     </h1>
                     <p className = "mt-4 text-sm sm:text-lg font-medium">

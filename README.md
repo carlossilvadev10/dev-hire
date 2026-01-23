@@ -220,6 +220,6 @@ Si tienes alguna pregunta o sugerencia, puedes encontrarme en:
 
 ---
 
-**Hecho con ❤️ y mucho ☕ por [Tu Nombre]**
+**Hecho con ❤️ y mucho ☕ por Carlos Silva**
 
 ⭐ Si te gustó el proyecto, ¡dale una estrella en GitHub!
